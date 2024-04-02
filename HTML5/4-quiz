@@ -1,0 +1,7 @@
+Egzersiz: Aşağıda verilen girdileri web sayfa tasarımınız için oluşturmaya çalışınız.
+
+1- Başlık (head) ve gövde (body) parçaları içeren bir HTML dokümanı oluşturun.
+2- "Makina Öğrenme Merkezi" içeriğine sahip bir "<h1>" başlığı olsun.
+3- "test.png" isimli resim dosyası içeren bir "<img>" bileşeni oluşturun. Bunu yaparken alternatif metni dahil etmeyi unutmayın.
+4- Resmin altında metni "Giriş" yazılı olan bir link ekleyin. Link url: https://ogrenmemerkezi.com/ olsun. 
+   Bu linkin resmin yanında değil, altında olmasına dikkat edin.

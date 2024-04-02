@@ -1,0 +1,16 @@
+Egzersiz: Aşağıda verilen girdileri web sayfa tasarımınız için oluşturmaya çalışınız.
+
+1- Başlık (head) ve gövde (body) parçaları içeren bir HTML dokümanı oluşturun.
+2- Bir <h3> başlık satırında "Üretim Yönetimi" yazılı bileşen oluşturun.
+3- Altında aşağıdaki gibi listelenmiş şekilde alt menülerin listelemesini yapın.
+
+Üretim Yönetimi
+
+    •	Üretim Girişi
+    •	Üretim Planlama
+    •	Üretim Raporları
+        o	Günlük Rapor
+        o	Haftalık Rapor
+        o	Aylık Rapor
+
+not: Liste biçiminin sırasız (unordered) ve iç içe geçmiş (nested) olmasına dikkat edin.

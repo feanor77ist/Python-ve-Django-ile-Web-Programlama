@@ -1,0 +1,5 @@
+Egzersiz: Aşağıda verilen girdileri ilk web sayfa tasarımınız için oluşturmaya çalışınız.
+
+1- Başlık (head) ve gövde (body) parçaları içeren bir HTML dokümanı oluşturun.
+2- Bir <h3> başlık satırında "Üretim Durum Raporu" yazılı bileşeni oluşturun.
+3- Bir <p> satırı içeriğinde de "Satış Sipariş No" yazılı bileşen olsun.

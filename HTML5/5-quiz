@@ -1,0 +1,14 @@
+
+Egzersiz: Aşağıdaki tabloyu içeren bir web sayfası tasarlayınız:
+
+1- Başlık metni "<h1>" olacak.
+2- Tablodaki border kalınlığı 2 olarak ayarlanacak.
+3- Sipariş kodu "<td>" içerikleri bir linkle href="2-HTML-lists.html" sayfasına yönlendirilecek.
+4- Tablodaki "<thead>" başlıklarını unutmayınız.
+
+
+Satış Siparişi Yönetim Paneli 
+
+Sipariş Kodu	Sipariş Adı	  Miktar (kg)	Sipariş Tarihi
+S101            Sipariş 1	   12.000	    02.04.2024
+S102            Sipariş 2	   15.000	    21.04.2024
