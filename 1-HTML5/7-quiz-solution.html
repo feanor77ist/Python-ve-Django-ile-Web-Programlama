@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form-onay.html">
+        
+        <label for="order_nr">Sipariş Kodu:</label>
+        <input type="text" id="order_nr" name="order_nr" required><br><br>
+    
+        <label for="order_name">Sipariş Adı:</label>
+        <input type="text" id="order_name" name="order_name"><br><br>
+    
+        <label for="qty">Miktar:</label>
+        <input type="number" id="qty" name="qty" min="1"><br><br>
+    
+        <label for="date">Sipariş Tarihi:</label>
+        <input type="date" id="date" name="date" max="2024-04-02"><br><br>
+
+        <fieldset style="width: 200px; border-radius: 5px">
+            <legend>Satış Tipi Seçiniz</legend>
+            <div>
+                <input type="radio" id="in" name="type" value="domestic" checked>
+                <label for="in">Yurt İçi</label>
+            </div>
+        
+            <div>
+                <input type="radio" id="out" name="type" value="export">
+                <label for="out">Yurt Dışı</label>
+            </div>
+        </fieldset><br>
+
+        <label for="priority">Sipariş Önceliği</label><br>
+        <select name="priority" id="priority" style="border-radius: 5px; height:30px">
+            <option value="">Seçiniz</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><br><br>
+
+        <label for="is_payment">Peşinat ödemesi alındı mı?</label>
+        <input type="checkbox" id="is_payment" name="is_payment"><br><br>
+
+        <label for="notes">Açıklamalar</label><br>
+        <textarea name="note" id="notes" cols="30" rows="10" style="border-radius: 5px;"></textarea><br><br>
+    
+        <button type="submit" style="border-radius: 5px">Onayla</button>
+        
+    </form>
+</body>
+</html>

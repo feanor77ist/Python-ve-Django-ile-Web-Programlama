@@ -6,20 +6,26 @@
 </head>
 <body>
     <form action="form-onay.html">
-        <p>Satış Tipi</p>
-
-        <label for="in">Yurt İçi:</label>
-        <input type="radio" id="in" name="type" value="domestic"><br>
-
-        <label for="out">Yurt Dışı:</label>
-        <input type="radio" id="out" name="type" value="export"><br><br>
-
+        
+        <fieldset style="width: 200px; border-radius: 5px">
+            <legend>Satış Tipi Seçiniz</legend>
+            <div>
+                <input type="radio" id="in" name="type" value="domestic" checked>
+                <label for="in">Yurt İçi</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="out" name="type" value="export">
+                <label for="out">Yurt Dışı</label>
+            </div>
+        </fieldset><br>
+        
         <button type="submit" style="border-radius: 5px;">Gönder</button>
     </form><br><br>
 
     <form action="form-onay.html">
         <label for="process-select">Proses Seçimi</label><br>
-        <select name="process" id="process-select" required>
+        <select name="process" id="process-select" style="border-radius: 5px; height:30px" required>
             <option value="">Seçiniz</option>
             <option value="Kesme">Kesme</option>
             <option value="Mekanik Temizlik">Mekanik Temizlik</option>
@@ -29,8 +35,11 @@
             <option value="Boyama">Boyama</option>
         </select><br><br>
 
+        <label for="is_ordered">Satın Alma Siparişi Açıldı mı?</label>
+        <input type="checkbox" id="is_ordered" name="is_ordered"><br><br>
+
         <label for="notes">Açıklamalar</label><br>
-        <textarea name="note" id="notes" cols="40" rows="5"></textarea><br><br>
+        <textarea name="note" id="notes" cols="40" rows="5" style="border-radius: 5px;"></textarea><br><br>
 
         <button type="submit" style="border-radius: 5px;">Gönder</button>
     </form>

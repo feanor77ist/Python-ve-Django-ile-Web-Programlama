@@ -1,0 +1,29 @@
+h1 {
+    color: rgb(128, 128, 128);
+}
+
+h3 {
+    color: blueviolet;
+    font-weight: 900;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    display: block;
+}
+
+input {
+    display: block;
+}
+
+p {
+    display: inline;
+    border: solid blueviolet;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}

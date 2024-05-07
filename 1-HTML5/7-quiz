@@ -1,0 +1,10 @@
+Egzersiz-7: Bir önceki egzersizdeki form içeriğini aşağıdaki veri giriş alanlarını ekleyerek geliştirin:
+
+    1- "Satış Tipi Seçiniz" etiket ismi altında "Yurt İçi" ve "Yurt Dışı" seçeneklerinin olduğu radio input alanı tanımlayın.
+       default olarak Yurt İçi seçeneği "checked" olarak belirsin.
+    2- "Sipariş Önceliği" ismine sahip çoktan seçimli (select-option) bir input alanı oluşturun. 
+       Bu alan 1 ile 5 arasındaki öncelik sırasına sahip olsun.
+    3- Bir checkbox giriş alanı ile "Peşinat Ödemesi Alındı mı?" şeklinde bir input alanı tanımlayın.
+    4- Son olarak "Açıklamalar" başlığı ile bir "textarea" input alanı oluşturun.
+    5- "Submit" butonunu unutmayın.
+    6- Form action linki daha önce oluşturduğunuz 'form-onay.html' sayfası olsun.

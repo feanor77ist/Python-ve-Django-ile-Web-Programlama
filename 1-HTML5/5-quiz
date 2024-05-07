@@ -1,8 +1,8 @@
 
-Egzersiz: Aşağıdaki tabloyu içeren bir web sayfası tasarlayınız:
+Egzersiz-5: Aşağıdaki tabloyu içeren bir web sayfası tasarlayınız:
 
 1- Başlık metni "<h1>" olacak.
-2- Tablodaki border kalınlığı 2 olarak ayarlanacak.
+2- Tablodaki kenarlık kalınlığı 2 olarak ayarlanacak.
 3- Sipariş kodu "<td>" içerikleri bir linkle href="2-HTML-lists.html" sayfasına yönlendirilecek.
 4- Tablodaki "<thead>" başlıklarını unutmayınız.
 

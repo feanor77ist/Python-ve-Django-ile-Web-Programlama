@@ -1,0 +1,46 @@
+
+Egzersiz-1: Daha önceki HTML derslerinde oluşturduğumuz aşağıdaki tabloda CSS kullanarak 
+            stillendirme yapmaya çalışın.
+
+1- Öncelikle aşağıdaki kodu içeren bir html dokümanını oluşturun.
+2- "style.css" isimli bir CSS dosyasını çalıştığınız klasör içinde tanımlayın.
+3- Bu CSS dosyasını oluşturduğunuz HTML dokümanına link vererek bağlantılandırın.
+4- Tablonuzdaki "STOK LİSTESİ"  paragrafının "<p>" yazı rengini "kırmızı" olarak ayarlayın.
+5- Tablo başlıklarınızın (<thead>) arka-plan rengini "mavi", yazı rengini ise "beyaz" olarak ayarlayın.
+6- Tüm içeriğin gövdesinin (<body>) arka-plan rengini ise "aqua" olarak ayarlayın.
+
+<!-- Tablo HTML kodu -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border=1>
+        <p><strong>STOK LİSTESİ</strong></p>
+        <thead>
+            <th>Malzeme</th>
+            <th>Kalite</th>
+            <th>Miktar (kg)</th>
+        </thead>
+        <tr>
+            <td>Boru</td>
+            <td>S235</td>
+            <td>10120</td>
+        </tr>
+        <tr>
+            <td>Profil</td>
+            <td>S355</td>
+            <td>560</td>
+        </tr>
+        <tr>
+            <td>Cıvata</td>
+            <td></td>
+            <td>750</td>
+        </tr>
+    </table>
+</body>
+</html>
+
