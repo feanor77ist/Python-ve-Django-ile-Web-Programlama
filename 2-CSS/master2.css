@@ -19,7 +19,7 @@ input {
 
 p {
     display: inline;
-    border: solid blueviolet;
+    border: 2px solid blueviolet;
     border-radius: 5px;
     width: 200px;
     text-align: center;

@@ -8,7 +8,7 @@ Egzersiz-6: 5.Egzersizde oluşturduğunuz Tablo verilerinden kullanıcı girişi
             1- Sipariş Kodu: Alfanümerik (text) alanı. Veri girişini kullanıcının boş bırakamayacağı 
                şekilde zorunlu tutun.
             2- Sipariş Adı: text
-            3- Miktar: tamsayı (1`den küçük veri girilmemesini sağlayın)
+            3- Miktar: tamsayı (1`den küçük, 100.000’den büyük  veri girilmemesini sağlayın)
             4- Sipariş tarihi: Kullanıcının bugünün tarihinden daha önceki bir günü seçmesini sağlayın
                 (ipucu: input alanında 'max' attribute (özelliğini) kullanın. max="yyyy-mm-dd" formatında girilmeli)
             5- Submit butonu koymayı unutmayın. Kenar yuvarlaklığını 5px olarak ayarlayın.

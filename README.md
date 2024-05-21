@@ -1,6 +1,6 @@
-# Sıfırdan İleri Seviyeye Python Programlama
+# Üretim Yönetiminde Full-Stack Web Uygulamaları Geliştirme 
 
 
-Udemy üzerindeki [Sıfırdan İleri Seviyeye Python Programlama](https://www.udemy.com/course/sifirdan-ileri-seviyeye-python/?couponCode=PYTHON6) kursundaki Çalışma Notebookları ve Kullanılan Kodlar
+[Üretim Yönetiminde Full-Stack Web Uygulamaları Geliştirme ](https://github.com/feanor77ist/Python-ve-Django-ile-Web-Programlama) kursundaki Çalışma Notebookları ve Kullanılan Kodlar
 
 
